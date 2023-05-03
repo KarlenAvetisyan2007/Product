@@ -8,9 +8,9 @@ render() {
     const { name, price, description } = this.props;
     return (
         <div>
-        <Name name={name} />
-        <Price price={price} />
-        <Description description={description} />
+            <Name name={name} />
+            <Price price={price} />
+            <Description description={description} />
         </div>
     );
 }
