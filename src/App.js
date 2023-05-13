@@ -1,12 +1,10 @@
-import React from "react";
-import Product from "./Product";
+import { React } from "react";
+import { AppModule } from "./inputs/appModule.js";
 
 function App() {
-  return (
-    <div>
-        <Product name="Apple" price="5.55" description="Red and fresh apples from Armenia"/>
-    </div>
-  );
+    return (
+        <AppModule />
+    );
 }
 
 export default App;
